@@ -19,6 +19,20 @@ Functions in C are essential for enabling reusability, reducing redundancy, maki
 
 To call a function in C, you use the function name followed by the argument list in parentheses. Here's a simple example:
 
+#include <stdio.h>
+
+// Function that takes two parameters a and b as inputs and returns their sum
+int sum(int a, int b) {
+    return a + b;
+}
+
+// Driver code
+int main() {
+    // Calling sum function and storing its value in add variable
+    int add = sum(10, 30);
+    printf("Sum is: %d", add);
+    return 0;
+}
 
 # parameters 
 In C, a parameter refers to a variable in a function declaration or definition, while an argument is the actual value passed to the function when it is called. Parameters act as placeholders to receive 
