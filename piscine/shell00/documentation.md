@@ -606,15 +606,6 @@ file -m ft_magic <file_name>
 
 Replace `<file_name>` with the name of the file you want to check. This command will use the "ft_magic" file to detect if the specified file is of the "42" file type based on the content at the 42nd byte.
 
-For more information on the "magic" file format and its usage, you can refer to the man pages for `magic` and `file` by running `man magic` and `man file` in your terminal.
-
-Sources
-[1] magic file capable of detecting file types - Ask Ubuntu https://askubuntu.com/questions/1442599/magic-file-capable-of-detecting-file-types
-[2] Create Magic File in Bash - CodePal - Code Generator https://codepal.ai/code-generator/query/RfYWDqaZ/create-magic-file-in-bash
-[3] Anyone care to explain what a magic file is and what it does? : r/unix - Reddit https://www.reddit.com/r/unix/comments/x1lt4z/anyone_care_to_explain_what_a_magic_file_is_and/
-[4] My file doesn't return the magic file message - Stack Overflow https://stackoverflow.com/questions/64888377/my-file-doesnt-return-the-magic-file-message
-[5] Magic File Format in Linux Unix Shell Explained and Simplified - YouTube https://youtube.com/watch?v=fVOd3Dxifms
-
 
 this was kinda bullshit
 
