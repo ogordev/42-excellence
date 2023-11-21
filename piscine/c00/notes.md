@@ -49,3 +49,18 @@ When a method is called, the data passed into the method's parameters are referr
 
 In summary, a parameter is a variable in a function declaration or definition, while an argument is the actual value passed to the function when it is called.
 
+# variables 
+
+In C programming language, a variable is a named memory location that stores a value. Each variable in C has a specific type, which determines the size and layout of the variable's memory, the range of values that can be stored within that memory, and the set of operations that can be applied to the variable[1][2][3]. 
+
+To use a variable in C, you must first declare it, which tells the compiler about the existence of the variable with the given name and data type. When the variable is declared, the compiler automatically allocates memory for it. Then, you can define the variable, which allocates some memory and some value to it. Finally, you can initialize the variable, which is the process of assigning a meaningful value to the variable[4][5].
+
+For example, to declare, define, and initialize an integer variable named `num` with the value `10`, you can use the following code:
+
+```c
+int num; // Declaration
+num = 10; // Definition and initialization
+```
+
+Variables in C are essential for storing and manipulating data in a program. They enable the program to store values, perform calculations, and make decisions based on the stored data[2][5].
+
