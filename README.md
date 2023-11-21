@@ -1,6 +1,7 @@
 # 42-excellence
 
 Welcome to our Collaborative Coding Repository! 🚀
+
 Hey there, fellow students! Welcome to our collaborative GitHub repository dedicated to sharing solutions to exercises and explaining actions. This space is designed to foster a supportive and engaging environment for learning and growing together. Let's strive for excellence and push the boundaries of our coding skills! 🌟
 
 #### Getting Started
@@ -31,7 +32,7 @@ Respect, collaboration, and open-mindedness are the cornerstones of our communit
 
 #### Contact Information
 
-For any queries or assistance, feel free to reach out to the project lead at [email_address]. 📧
+For any queries or assistance, feel free to reach out to the project lead at [ogordev@proton.me]. 📧
 
 #### License
 
