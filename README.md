@@ -14,11 +14,17 @@ To get started with this guide, simply follow these steps:
 2. **Explore the Content**: Review the guide and explore the provided resources.
 3. **Contribute**: Share your own tips and experiences to help others succeed.
 
-Clone the repository to your local machine using the command 
+Clone the repository to your local machine using the command:
 ```git clone git@github.com:ogordev/42-excellence.git```
-Create a new branch for your contributions using ```git checkout -b <branch_name>```
-After making your changes, commit them using ```git commit -m "Your commit message"```
-Push your changes to the repository using ```git push origin <branch_name>```
+
+Create a new branch for your contributions using: 
+```git checkout -b <branch_name>```
+
+After making your changes, commit them using: 
+```git commit -m "Your commit message"```
+
+Push your changes to the repository using: 
+```git push origin <branch_name>```
 
 Finally, submit a pull request to merge your changes into the main branch. 🛠️
 
