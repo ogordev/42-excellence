@@ -34,6 +34,12 @@ int main() {
     return 0;
 }
 
+In this example, the sum function is called with the arguments 10 and 30. The function returns the sum of the two numbers, which is then printed in the main function
+3
+.
+Functions in C are essential for dividing bigger problems into smaller, more manageable chunks of code, making it simpler to create and run programs. They enable reusability, reduce redundancy, make code modular, provide abstraction functionality, and break an extensive program into smaller and simpler pieces
+
+
 # parameters 
 In C, a parameter refers to a variable in a function declaration or definition, while an argument is the actual value passed to the function when it is called. Parameters act as placeholders to receive 
 the arguments passed during a function call, and they are also known as formal parameters. On the other hand, arguments are the actual values supplied during the function call 
