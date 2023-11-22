@@ -7,10 +7,9 @@ each byte contains 8 bits and can represent a number between 0 and 255.
 the rank of the byte in the ram is called the address.
 therefore each byte has it's own address.
 
+we will declare the ram that we will need to store data and make calculations on and then we will give precise instructions to the micro-processor to manipulate our data and make the needed calculations and subsequently communicate that to the the inputs/outputs.
 
-
-
-
+the code that we write needs to be compiled from something that we humans can grasp into a series of binary numbers that the computers can understand.
 
 # basic program syntax
 
