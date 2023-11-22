@@ -1,3 +1,25 @@
+# C Documentation
+
+https://devdocs.io/c/
+
+# basic program template
+
+Here's a basic C program template that you can use as a starting point for your own programs:
+
+```c
+#include <stdio.h>
+
+int main() {
+    // Your code here
+    return 0;
+}
+```
+
+This template includes the necessary `#include` directive to include the standard input/output library, and a `main()` function that serves as the entry point for your program. You can add your own code inside the `main()` function to perform the desired operations.
+
+Please note that this is a very basic template, and you may need to include additional libraries or functions depending on the requirements of your program. You can refer to the other search results for more examples and explanations of C programming concepts and techniques.
+
+
 # function
 In C, a function is a set of statements that perform a specific task. It is the basic building block of a C program, providing modularity and code reusability. Functions in C have the following key aspects:
 Declaration: In a function declaration, the function name, its return type, and the number and type of its parameters are specified.
@@ -63,4 +85,11 @@ num = 10; // Definition and initialization
 ```
 
 Variables in C are essential for storing and manipulating data in a program. They enable the program to store values, perform calculations, and make decisions based on the stored data[2][5].
+
+# write function
+The write() function is a low-level file manipulation function provided by the unistd.h library in C, which performs write operations on a file.
+
+```C
+int write(int fileDescriptor, void *buffer, size_t bytesToWrite)
+```
 
