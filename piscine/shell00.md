@@ -57,23 +57,20 @@ To produce a file with an output similar to "-r--r-xr-x 1 XX XX 40 Jun 1 23:42 t
 
 
 ```
-touch testShell00 # Create a new file named testShell00 
+touch -t 202306012342 testShell00 # Create a new file named testShell00 and set date and time
 
-chmod 554 testShell00 # Set the permissions for the file
+# add 40 characters in the file
+
+chmod u=r,g=rx,o=rx testShell00 # Set the permissions for the file
+
+tar -cf testShell00.tar testShell00 # compress the file
+
+rm -r testShell00 # remove the testShell00 file
 
 ```
 
 
 In this example, the `touch` command creates a new file, and the `chmod` command sets the permissions for the file. The permissions "554" correspond to "-r-xr-xr--", which matches the desired output format. The other attributes such as the owner, group, size, and modification date will be automatically generated based on the system's settings and the time of creation.This will result in a file with the specified permissions and other attributes, similar to the output you provided.
-
-
-Now that you have done that, turn the file into 
-
-
-```
-tar -cf testShell00.tar testShell00
-
-```
 
 The command `tar -cf testShell00.tar testShell00` is used to create a new tar archive file named "testShell00.tar" containing the file "testShell00". Here's a breakdown of the command:
 
@@ -84,12 +81,6 @@ The command `tar -cf testShell00.tar testShell00` is used to create a new tar 
 
 When you run this command, it will create a new tar archive file named "testShell00.tar" containing the file "testShell00". This can be useful for bundling multiple files or directories into a single archive for easier storage or transfer.If you encounter any issues with the `tar` command, it's important to ensure that you have the necessary permissions to create the archive and that the specified file "testShell00" exists in the current directory.
 
-Don't forget to remove the testShell00 file as you only need to hand in the testShell00.tar file.
-
-
-```
-rm -r testShell00
-```
 
 
 # (chapter V)
