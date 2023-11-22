@@ -1,10 +1,20 @@
-# C Documentation
+# memory : ram
+a series of slots called bytes.
+they are ordered in a unique line from byte zero to let's say byte 16 million if you have a 16gb of RAM.
 
-https://devdocs.io/c/
+each byte contains 8 bits and can represent a number between 0 and 255.
 
-# basic program template
+the rank of the byte in the ram is called the address.
+therefore each byte has it's own address.
 
-Here's a basic C program template that you can use as a starting point for your own programs:
+
+
+
+
+
+# basic program syntax
+
+Here's a basic C program syntax that you can use as a starting point for your own programs:
 
 ```c
 #include <stdio.h>
@@ -99,3 +109,9 @@ fileDescriptor: It is an integer file descriptor for the opened file, which the 
 buffer: This pointer points to a buffer containing the data we want to write into the file.
 bytesToWrite: Here, we provide an unsigned integer variable that specifies the maximum number of bytes we want to write from the buffer to the file.
 When executed, the function returns an integer value of the number of bytes written to the file.
+
+# C Documentation
+
+https://devdocs.io/c/
+
+
