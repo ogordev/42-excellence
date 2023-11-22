@@ -93,3 +93,9 @@ The write() function is a low-level file manipulation function provided by the u
 int write(int fileDescriptor, void *buffer, size_t bytesToWrite)
 ```
 
+We need to provide the function with three arguments which are discussed below:
+
+fileDescriptor: It is an integer file descriptor for the opened file, which the open() function returns when opening a file.
+buffer: This pointer points to a buffer containing the data we want to write into the file.
+bytesToWrite: Here, we provide an unsigned integer variable that specifies the maximum number of bytes we want to write from the buffer to the file.
+When executed, the function returns an integer value of the number of bytes written to the file.
