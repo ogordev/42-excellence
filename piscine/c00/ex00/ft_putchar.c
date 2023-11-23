@@ -1,12 +1,10 @@
 #include <stdio.h>
 
-void display_char(char c) {
+void ft_putchar(char c) {
     putchar(c);
 }
 
 int main() {
-    display_char('A');
-    display_char('B');
-    display_char('C');
+    ft_putchar('C');
     return 0;
 }
